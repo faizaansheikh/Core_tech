@@ -7,7 +7,7 @@ import { bgcolor } from "../utils";
 import './nav.css';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useRouter } from "next/navigation";
-import logo from '../images/AZ Logo.png'
+import logo from '../../public/core_tech_logo.png'
 const Navbar = () => {
     const router = useRouter()
     const [open, setOpen] = useState(false);
@@ -63,7 +63,7 @@ const Navbar = () => {
                     <img
                        src={typeof logo === 'string' ? logo : logo.src}
                         alt="logo"
-                        width="280px"
+                        width="480px"
                         height="180px"
                     />
                 </div>

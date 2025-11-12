@@ -19,7 +19,7 @@ export default function Page() {
     <div className="">
 
 
-      <div className="md:mt-[30px] md:mt-0" id="about">
+      <div className="md:mt-[30px]" id="about">
         <About />
       </div>
       
