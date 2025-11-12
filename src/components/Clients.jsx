@@ -49,7 +49,7 @@ function Clients() {
 
     return (
         <div className='lg:mx-[200px] '>
-               <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-10' style={{ borderBottom: `2px solid ${bgcolor}` }}>Our Valued Customers</h2>
+               <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-10' style={{ borderBottom: `2px solid ${bgcolor}` }}>OUR VALUED CUSTOMERS</h2>
             
             {/* <p className='text-center text-md px-4 md:mx-0 md:text-xl pb-6 mb-6' style={{ borderBottom: `2px solid ${bgcolor}` }}>
                 We have business partnership with a number of premier manufacturers and suppliers of scientific instrumentation around the globe.

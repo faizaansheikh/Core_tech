@@ -9,7 +9,7 @@ import linsis from '../images/linsis.png'
 import paltro from '../images/paltro.png'
 import orbis from '../images/orbis.png'
 import omni from '../images/omni.png'
-import xos from '../images/xos.png'
+import xos from '../images/XOS.jpg'
 
 const partners = [
     {
@@ -89,7 +89,8 @@ const partners = [
 const Partner = () => {
     return (
         <div className='mx-[30px] md:mx-[100px] lg:mx-[200px]'>
-            <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-10' style={{ borderBottom: `2px solid ${bgcolor}` }}>Our Partners</h2>
+            <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-10' style={{ borderBottom: `2px solid ${bgcolor}` }}>OUR BUSINESS PARTNERS & SUPPLIERS
+            </h2>
             <Carousel
                 arrows
                 autoPlaySpeed={3000}

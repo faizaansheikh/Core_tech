@@ -4,8 +4,7 @@ import { Col, Input, Row } from 'antd'
 import { UserOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import TextArea from 'antd/es/input/TextArea';
 import MyButton from '../../components/MyButton';
-import img from '../../images/contact.png'
-import Image from 'next/image';
+
 import { bgcolor } from '@/utils';
 
 

@@ -4,7 +4,6 @@ import img from '../images/1.1.jpg'
 import img2 from '../images/2a.jpg'
 import img3 from '../images/sales.jpg'
 import img4 from '../images/service.jpg'
-import img5 from '../images/2d.png'
 import Image from 'next/image'
 function Divisions() {
     const arr = [

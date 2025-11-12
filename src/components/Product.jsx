@@ -1,7 +1,5 @@
 import { bgcolor } from '@/utils'
 import React from 'react'
-import img1 from '../images/p1.jpg'
-import Image from 'next/image'
 import MyButton from './MyButton'
 function Product() {
     const arr = [

@@ -5,7 +5,6 @@ import AOSInitializer from "@/components/AOSInitializer";
 import Home from "./home/page";
 import Footer from "./footer/Footer";
 import CustomCursor from "@/components/CustomCursor";
-import logo from '../images/AZ Logo.png'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

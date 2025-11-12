@@ -150,7 +150,7 @@ function NewProducts() {
     };
     return (
         <div className='mx-[30px] md:mx-[100px] lg:mx-[200px]'>
-            <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-15' style={{ borderBottom: `2px solid ${bgcolor}` }}>Our Products</h2>
+            <h2 className='text-4xl md:text-5xl text-center  pt-20 pb-4 mb-15' style={{ borderBottom: `2px solid ${bgcolor}` }}>OUR PRODUCTS</h2>
             {/* parent  */}
             {/* <div className='  w-full h-[auto] flex justify-center flex-wrap gap-8'> */}
             <div className=' z-100 '>

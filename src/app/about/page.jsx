@@ -9,12 +9,12 @@ import Partner from '@/components/Partner';
 import Products from '../products/Products';
 import AboutSec from '@/components/AboutSec';
 import Image from 'next/image';
-import about from '../../images/3.jpg'
+import about from '../../images/about32.jpg'
 
 function About() {
     return (
         <>
-            
+
 
 
             <div className="w-full  h-auto lg:h-[auto] md:mt-22 flex flex-col items-center justify-center lg:flex-row px-12" >
@@ -23,7 +23,7 @@ function About() {
                     <Image
                         src={about}
                         alt="Developer at desk"
-                        className="object-cover w-full max-w-[320px] md:max-w-[600px] h-[400px] rounded-[20px] shadow-lg brightness-80"
+                        className="object-cover w-full max-w-[320px] md:max-w-[600px] h-[400px] rounded-[20px] shadow-lg  brightness-70"
                     />
 
                 </div>
@@ -32,22 +32,22 @@ function About() {
                 <div className="w-full flex flex-col justify-start items-start px-0 md:px-12 pt-0">
                     <p className="text-xl md:text-3xl font-bold mb-4" id="about">About AZ Scientific Solutions</p>
                     <p
-                        className={`text-sm md:text-base text-gray-800
+                        className={`text-sm md:text-base text-black
                             }`}
                     >
-                        AZ Scientific Solutions was established in Karachi, Pakistan. We are providing services
-                        to educational institutes, research & development centers, oil & gas industry, government
-                        and private sector laboratories, food safety & environmental laboratories, local manufacturing
-                        industries etc
+                        Core Tech Scientific & Laboratory Equipment Trading was established in Dubai, UAE. We are providingservices to
+                        educational institutes, research & development centers, oil & gas industry, government and private sector laboratories,
+                        food safety & environmental laboratories, local manufacturing industries etc.
+
                         <br />
                         <br />
-                        AZ Scientific Solutions came along with vast experience of more than 20 years in the field of analytical,
-                        bio analytical & scientific research instruments. We have business partnership with a number of premier
-                        manufacturers and suppliers of scientific instrumentation around the globe.
+                        Core Tech Scientific & Laboratory Equipment Trading came along withvast experience of more than 20 years in the field
+                        of analytical, bio analytical & scientific researchinstruments.
                         <br />
                         <br />
-                        We are fully capable of meeting the challenges of providing scientific solutions to laboratories with latest t
-                        echnology, instrumentation and services in the technical, medical and industrial fields.
+                        We have business partnership with a number of premier manufacturers and suppliers of scientific instrumentation around
+                        the globe. We are fully capable of meeting the challenges of providingscientific solutions tolaboratories with latest technology,
+                        instrumentation and services in the fields.
                     </p>
 
 
@@ -58,15 +58,15 @@ function About() {
                 <AboutSec />
             </div>
 
-            <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '#e2dedeff' }} id="partner">
+            <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '' }} id="partner">
 
                 <Partner />
             </div>
-            <div className="mt-[70px] mb-[80px] md:mt-[100px]" id="products">
+            <div className="mt-[70px] mb-[80px] md:mt-[40px]" id="products">
                 <NewProducts />
-              
+
             </div>
-            <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '#e2dedeff' }} id="clients">
+            <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '' }} id="clients">
 
                 <Clients />
             </div>

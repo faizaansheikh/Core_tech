@@ -16,13 +16,13 @@ export default function AboutSec() {
             id: 1,
             icon: (id) => <FaRegEye size={80} color='#29303bff' />,
             title: 'Our Vision',
-            desc: 'To deliver beyond the customer’s expectation in field of Scientific Instrumentation, a platform where we grow together.'
+            desc: 'To deliver beyond the customer’s expectationin field of Scientific Instrumentation, a platform where we grow together.'
         },
         {
             id: 2,
             icon: (id) => <GoGoal size={75} color='#29303bff' />,
             title: 'Our Mission',
-            desc: 'To set new standards in providing scientific solutions, based on the customer’s satisfaction through experience, knowledge and latest technology.'
+            desc: 'Tset new standards inproviding scientificsolutions,based onthe customer’s satisfactionthroughexperience, knowledge and  latest technology.'
         },
         {
             id: 3,
@@ -36,7 +36,7 @@ export default function AboutSec() {
             {arr.map((x, i) => (
                 <div
                     key={i}
-                    className="w-full sm:w-[48%] lg:w-[30%] h-[300px] bg-[whitesmoke] flex flex-col items-center justify-center border border-[grey] hover:border-black hover:scale-105 transition-transform duration-500 shadow-xl"
+                    className="hover:rotate-5 w-full sm:w-[48%] lg:w-[30%] h-[300px] bg-[whitesmoke] flex flex-col items-center justify-center border border-[grey] hover:border-black hover:scale-105 transition-transform duration-500 shadow-xl"
                 >
                     <div>{x.icon()}</div>
                     <h2 className="font-[600] text-2xl text-[#29303bff] pb-2 pt-2">{x.title}</h2>
