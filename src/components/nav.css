@@ -7,7 +7,7 @@
 .nav-list::after {
   content: '';
   position: absolute;
-  background-color: rgb(217, 215, 226);
+  background-color: #304b4c;
   height: 3px;
   width: 0;
   left: 0;
