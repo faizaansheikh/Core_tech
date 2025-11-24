@@ -42,7 +42,7 @@ function Divisions() {
         }
         const params = new URLSearchParams({
             to: sendTo(),
-            su: "From Az Scientific Solutions Divisions",
+            su: "From Coretech  Divisions",
             body: `Asking about ${title} division`,
             cc: "",
             bcc: "",

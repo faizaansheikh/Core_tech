@@ -30,7 +30,7 @@ function About() {
 
 
                 <div className="w-full flex flex-col justify-start items-start px-0 md:px-12 pt-0">
-                    <p className="text-xl md:text-3xl font-bold mb-4" id="about">About AZ Scientific Solutions</p>
+                    <p className="text-xl md:text-3xl font-bold mb-4" id="about">About Coretech </p>
                     <p
                         className={`text-sm md:text-base text-black
                             }`}

@@ -4,9 +4,9 @@ import Navbar from "../../components/Navbar";
 import MyButton from "../../components/MyButton";
 import './home.css'
 import { Carousel } from "antd";
-import img from '../../images/wind_1.jpg'
-import img1 from '../../images/wind_2.jpg'
-import img2 from '../../images/wind_3.jpg'
+import img from '../../images/wind_0.jpg'
+import img1 from '../../images/wind_00.jpg'
+// import img2 from '../../images/wind_3.jpg'
 // import img4 from '../../images/h4.jpg'
 import img4 from '../../images/industrial.jpg'
 
@@ -20,10 +20,6 @@ const Home = () => {
     {
       img: img1,
       // title: 'Scientific Solutions'
-    },
-    {
-      img: img2,
-
     },
 
     {

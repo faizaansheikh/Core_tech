@@ -22,7 +22,7 @@ export default function AboutSec() {
             id: 2,
             icon: (id) => <GoGoal size={75} color='#29303bff' />,
             title: 'Our Mission',
-            desc: 'Tset new standards inproviding scientificsolutions,based onthe customer’s satisfactionthroughexperience, knowledge and  latest technology.'
+            desc: 'To set new standards inproviding scientificsolutions,based onthe customer’s satisfactionthroughexperience, knowledge and  latest technology.'
         },
         {
             id: 3,

@@ -5,127 +5,94 @@ import { EyeOutlined, MessageOutlined } from '@ant-design/icons';
 import { Card, Tooltip } from 'antd';
 import { bgcolor } from '@/utils';
 import Carousel from 'react-multi-carousel';
-import img4 from '../images/Petra SUPRA.jpg';
+// import img4 from '../images/Petra SUPRA.jpg';
 function NewProducts() {
     const products = [
         {
-            img: '/p4.png',
-            url: 'https://www.adsystems-sa.com/products',
-            title: 'Thermal Oxidation Rig',
+            img: '/new_pr/1.png',
+            url: 'http://www.yoke-fac.com/double-beam-spectrophotometer-p00206p1.html',
+            title: 'Double Beam Spectrophotometer',
             desc: 'AD Systems specializes in the design, manufacturing, selling and servicing of unique test equipment for the evaluation of physical properties'
         },
         {
-            img: '/p6.png',
-            url: 'https://orbisbv.com/all-products/',
-            title: 'MICRO-DISTILLATION Unit',
+            img: '/new_pr/2.png',
+            url: 'http://www.yoke-fac.com/atomic-absorption-spectrophotometer-p00182p1.html',
+            title: 'Atomic Absorption Spectrophotometer',
+            desc: 'More than 60 years ago LINSEIS started the production of thermal analysis recorders and instruments'
+        },
+        {
+            img: '/new_pr/3.png',
+            url: 'http://www.yoke-fac.com/flame-photometer-p00186p1.html',
+            title: 'Flame Photmeter',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
+        },
+
+        {
+            img: '/new_pr/4.png',
+            url: ' https://www.thermcon.biz/EN,24/dsc-600--high-precision-differential-scanning-calorimeter.html',
+            title: 'DSC 600 – Scanning Calorimeter',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
+        },
+        {
+            img: '/new_pr/5.png',
+            url: 'https://www.thermcon.biz/EN,34/lfa-1000-laser-flash-thermal-conductivity-diffusivity-tester.html',
+            title: 'LFA 1000 Laser Flash Thermal Conductivity &Diffusivity Tester',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
+        },
+        {
+            img: '/new_pr/6.png',
+            url: 'https://www.thermcon.biz/EN,15/sta-1500-simultaneous-thermal-analyzer-tga--dsc.html',
+            title: 'STA 1500 Simultaneous Thermal Analyzer',
             desc: 'Develop high end laboratory equipment that saves worldwide customers time and money while producing the best achievable test results'
         },
         {
-            img: '/p7.png',
-            url: 'https://www.teinstruments.com/instruments/analyzers/',
-            title: 'COMBUSTION ANALYZER',
+            img: '/new_pr/7.png',
+            url: 'https://www.ducom.com/high-frequency-reciprocating-rig-hfrr',
+            title: 'HIGH FREQUENCY RECIPROCATING RIG (HFRR 4.2)',
             desc: 'Trace Elemental Instruments B.V., designs, develops, manufactures, markets, sells and supports a range of laboratory equipment '
         },
         {
-            img: img4,
-            url: 'https://www.xos.com/petra-supra/product?id=69930778601',
-            title: 'XRF',
-            desc: 'XOS specializes in the design, manufacturing, selling and servicing of unique test equipment for the evaluation of physical properties'
+            img: '/new_pr/8.png',
+            url: 'https://www.ducom.com/four-ball-tester-fbt-3',
+            title: 'Four Ball tester',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         },
-        // {
-        //     img: 'https://orbisbv.com/wp-content/uploads/2021/05/CPPP-Sep2.png',
-        //     url: 'https://ech.de/index.php/en/company',
-        //     title: 'ECH',
-        //     desc: 'Assembling and marketing the scientific devices for laboratory analysis, factory process control and on-site mobile analysis'
-        // },
         {
-            img: '/p1.png',
-            url: ' https://www.stanhope-seta.co.uk/shop-search/',
-            title: 'Petroleum test equipment',
-            desc: 'Stanhope-Seta design and manufacture quality control instruments used to measure the physical characteristics that determine product quality and consistency.'
+            img: '/new_pr/9.png',
+            url: '',
+            title: 'Ducom',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         },
-
-
         {
-            img: '/p2.png',
-            url: 'https://www.linseis.com/en/instruments/thermal-analysis/',
-            title: 'Thermal analyzers',
-            desc: 'More than 60 years ago LINSEIS started the production of thermal analysis recorders and instruments'
+            img: '/new_pr/10.png',
+            url: '',
+            title: 'RFP 2.0',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         },
-        // {
-        //     img: 'https://orbisbv.com/wp-content/uploads/2021/01/AirProbe-300x300.png',
-        //     url: 'https://www.grscientific.com/',
-        //     title: 'GR Scientific',
-        //     desc: 'The very successful Aquamax KF takes its new place alongside the ECH AQUA 40.00 Karl Fischer product line'
-        // },
-
         {
-            img: '/p3.png',
+            img: '/new_pr/11.png',
+            url: 'https://www.paltro.com',
+            title: 'UNITTEST (paltro)',
+            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
+        }, {
+            img: '/new_pr/12.png',
             url: 'https://www.labtechsrl.com/en/products',
-            title: 'Laboratory instruments',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        },
-
-
-
-
-
-        {
-            img: '/p5.png',
-            url: 'https://www.adsystems-sa.com/products/9',
-            title: 'AUTOMATIC SMOKE POINT ANALYZER',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        },
-
-        {
-            img: '/p8.png',
-            url: 'https://www.milestonesrl.com/products/microwave-digestion',
-            title: 'MICROWAVE DIGESTION',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        },
-        {
-            img: '/p9.png',
-            url: 'https://www.milestonesrl.com/products/mercury-determination',
-            title: 'MERCURY Analysis',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        },
-        {
-            img: '/p10.png',
-            url: 'https://www.labtechsrl.com/en/products/organic-sample-preparation',
-            title: 'Solid Phase Extraction',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        },
-
-
-        {
-            img: '/p11.png',
-            url: 'https://www.ducom.com/high-frequency-reciprocating-rig-hfrr',
-            title: 'HFRR( High Frequency Reciprocating Rig)',
+            title: 'XELSIUS – Reaction Station',
             desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         }, {
-            img: '/p12.png',
-            url: 'https://www.ducom.com/universal-tester-unitest',
-            title: 'Mechanical Analyzers (Tribology)',
+            img: '/new_pr/13.png',
+            url: 'https://www.labtechsrl.com/en/products/water-chillers',
+            title: 'Water chillers',
             desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         }, {
-            img: '/p13.png',
-            url: 'https://www.paltro.com/products/test-and-measurement/bocle--automated-ball-on-cylinder-lubricity-evaluator',
-            title: 'BOCLE ( Lubricity)',
+            img: '/new_pr/14.png',
+            url: 'https://www.labtechsrl.com/en/products/rotary-evaporators',
+            title: 'Rotary Evaporators',
             desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         }, {
-            img: '/p14.png',
-            url: 'https://www.paltro.com/products/advanced-microscopy-measurements/microfusion-lite',
-            title: 'Multi modal microscopy',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        }, {
-            img: '/p16.png',
-            url: ' https://omnitek.nl/products',
-            title: 'Automatic viscometer ASTM D445',
-            desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
-        }, {
-            img: '/p15.png',
-            url: 'https://omnitek.nl/products/Cito-S-flow-IV-Autosampler-for-fully-automated-viscosity-testing',
-            title: 'S-Flow Viscometer',
+            img: '/new_pr/15.png',
+            url: 'https://www.labtechsrl.com/en/products/hotplates',
+            title: 'Hotplates',
             desc: 'LabTech is a leading manufacturing company with skill and passion devoted to provide advanced laboratory solutions'
         },
 
@@ -136,7 +103,7 @@ function NewProducts() {
 
         const params = new URLSearchParams({
             to: 'info@az-scientificsolutions.com',
-            su: "From Az Scientific Solutions",
+            su: "From Coretech ",
             body: `Asking about Quotation`,
             cc: "",
             bcc: "",

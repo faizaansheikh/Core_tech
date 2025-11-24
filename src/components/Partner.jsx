@@ -4,85 +4,36 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { bgcolor } from '@/utils';
 import { Card, Tooltip } from 'antd';
-import ducom from '../images/ducom.png'
-import linsis from '../images/linsis.png'
-import paltro from '../images/paltro.png'
-import orbis from '../images/orbis.png'
-import omni from '../images/omni.png'
-import xos from '../images/XOS.jpg'
-
+import img1 from '../images/new/yoke.png'
+import img2 from '../images/new/thermakon.png'
+import img3 from '../images/new/paltro.png'
+import img4 from '../images/new/labtech.png'
 const partners = [
     {
-        img: 'https://az-scientificsolutions.com/wp-content/uploads/2018/05/ad-system.png',
-        url: 'https://www.adsystems-sa.com/',
-        title: 'AD Systems',
-        desc: 'Specialized in automation with unique features in petroleum equipment'
-    },
-    {
-        img: xos,
-        url: 'https://www.adsystems-sa.com/',
-        title: 'XOS',
-        desc: 'Specialized in manufacturing of X-Ray based analyzers.'
-    },
-    {
-        img: 'https://az-scientificsolutions.com/wp-content/uploads/2018/05/milestone.png',
-        url: 'https://www.milestonesrl.com/index.php/',
-        title: 'Milestone S.r.l. ',
-        desc: 'Specialized in advance microwave sample preparation.'
+        img: img1,
+        url: 'http://www.yoke-fac.com/',
+        title: 'Yoke Instruments ',
+        desc: 'Yoke Instrument is a high-tech enterprise that is dedicated in R&D, manufacturing, sales and services of laboratory.'
     },
 
     {
-        img: 'https://az-scientificsolutions.com/wp-content/uploads/2018/05/5.png',
-        url: 'https://www.stanhope-seta.co.uk/',
-        title: ' Stanhope-Seta',
-        desc: 'A worldwide benchmark for quality control instrumentation.'
-    },
-
-    {
-        img: 'https://az-scientificsolutions.com/wp-content/uploads/2018/05/trace.png',
-        url: 'http://teinstruments.com/',
-        title: 'Trace Elemental',
-        desc: 'Manufacturer of combustion analyzers for industrial and environmental testing.'
+        img: img2,
+        url: 'https://www.thermcon.biz/',
+        title: 'ThermCon',
+        desc: 'ThermCon Scientific is an innovative and research-oriented brand with more than 20 years of experience in the field of thermal analysis and thermal conductivity instruments'
     },
     {
-        img: 'https://az-scientificsolutions.com/wp-content/uploads/2018/05/11.png',
-        url: 'http://labtechsrl.com/#products',
-        title: 'Lab Tech Srl.',
-        desc: 'Your Reliable Laboratory Solution Provider.'
-    },
-
-    {
-        img: orbis,
-        url: 'https://orbisbv.com',
-        title: 'ORBIS BV',
-        desc: 'Manufacturers of automatic petroleum testing equipments'
-    },
-    {
-        img: omni,
-        url: 'https://omnitek.nl/',
-        title: 'Omni Tech',
-        desc: 'Manufactures state of the art  automatic viscometers'
-    },
-    {
-        img: ducom,
-        url: 'https://omnitek.nl/',
-        title: 'Ducom',
-        desc: 'Next-generation testers for tribology, mechanical and petroleum testing'
-    },
-    {
-        img: linsis,
-        url: 'https://linseis.com/en/our-products/',
-        title: 'Linseis Thermal  ',
-        desc: 'Manufacturer of measuring instruments for thermal analysis and the investigation of thermophysical properties for materials research.'
-    },
-    {
-        img: paltro,
-        url: 'https://omnitek.nl/',
+        img: img3,
+        url: 'https://www.paltro.com/',
         title: 'Paltro',
-        desc: 'Building industry leading robotic test platforms'
+        desc: 'Intelligent robotic platforms that are configurable for everything from testing and measurement applications to mobility and industrial automation'
     },
-
-
+    {
+        img: img4,
+        url: 'https://www.labtechsrl.com/en/',
+        title: 'LabTech',
+        desc: 'Labtech’s range virtually satisfies the needs of any modern lab with its 16 models divided in 4 families covering low and high speed, ventilated and refrigerated, small and large capacity'
+    },
 
 ]
 

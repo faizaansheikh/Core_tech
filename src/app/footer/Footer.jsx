@@ -83,7 +83,7 @@ function Footer() {
             </div>
             <div style={{ backgroundColor: bgcolor }} className='w-full h-[50px] flex justify-center items-center text-white py-10'>
                 <p>
-                    © 2018 AZ Scientific Solutions. All Rights Reserved
+                    © 2018 Coretech . All Rights Reserved
 
                 </p>
             </div>
