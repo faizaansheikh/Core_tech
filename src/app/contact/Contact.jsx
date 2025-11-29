@@ -22,7 +22,7 @@ function Contact() {
             return alert("Please fill all fields")
         }
         const params = new URLSearchParams({
-            to: 'info@az-scientificsolutions.com',
+            to: 'info@coretech.ae',
             su: "Contact Info",
             body: vals.msg,
             cc: "",

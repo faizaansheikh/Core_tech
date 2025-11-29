@@ -66,10 +66,10 @@ function About() {
                 <NewProducts />
 
             </div>
-            <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '' }} id="clients">
+            {/* <div className="mt-[70px] mb-[40px] pb-20 w-full h-[auto] md:mt-[60px]" style={{ backgroundColor: '' }} id="clients">
 
                 <Clients />
-            </div>
+            </div> */}
             <div className='mx-4  mb-[0px] mt-[60px] md:mt-[20px]'>
 
                 <Divisions />
