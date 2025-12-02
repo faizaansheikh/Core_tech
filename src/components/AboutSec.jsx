@@ -16,13 +16,13 @@ export default function AboutSec() {
             id: 1,
             icon: (id) => <FaRegEye size={80} color='#29303bff' />,
             title: 'Our Vision',
-            desc: 'To deliver beyond the customer’s expectationin field of Scientific Instrumentation, a platform where we grow together.'
+            desc: 'To deliver beyond the customer’s expectation in field of Scientific Instrumentation, a platform where we grow together.'
         },
         {
             id: 2,
             icon: (id) => <GoGoal size={75} color='#29303bff' />,
             title: 'Our Mission',
-            desc: 'To set new standards inproviding scientificsolutions,based onthe customer’s satisfactionthroughexperience, knowledge and  latest technology.'
+            desc: 'To set new standards inproviding scientific solutions, based on the customer’s satisfaction through experience, knowledge and  latest technology.'
         },
         {
             id: 3,

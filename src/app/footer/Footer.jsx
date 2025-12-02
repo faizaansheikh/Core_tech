@@ -63,7 +63,7 @@ function Footer() {
                     {/* <h2>Info:</h2> */}
                     <p>Email: info@coretech.ae</p>
                     <p>Tel: 009-71-569629495</p>
-                    <p>Fax: +92-21-34965714</p>
+                    {/* <p>Fax: +92-21-34965714</p> */}
 
                 </div>
 

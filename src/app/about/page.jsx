@@ -35,18 +35,18 @@ function About() {
                         className={`text-sm md:text-base text-black
                             }`}
                     >
-                        Core Tech Scientific & Laboratory Equipment Trading was established in Dubai, UAE. We are providingservices to
+                        Core Tech Scientific & Laboratory Equipment Trading was established in Dubai, UAE. We are providing services to
                         educational institutes, research & development centers, oil & gas industry, government and private sector laboratories,
                         food safety & environmental laboratories, local manufacturing industries etc.
 
                         <br />
                         <br />
-                        Core Tech Scientific & Laboratory Equipment Trading came along withvast experience of more than 20 years in the field
-                        of analytical, bio analytical & scientific researchinstruments.
+                        Core Tech Scientific & Laboratory Equipment Trading came along with vast experience of more than 20 years in the field
+                        of analytical, bio analytical & scientific research instruments.
                         <br />
                         <br />
                         We have business partnership with a number of premier manufacturers and suppliers of scientific instrumentation around
-                        the globe. We are fully capable of meeting the challenges of providingscientific solutions tolaboratories with latest technology,
+                        the globe. We are fully capable of meeting the challenges of providing scientific solutions to laboratories with latest technology,
                         instrumentation and services in the fields.
                     </p>
 

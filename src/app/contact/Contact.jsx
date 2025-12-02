@@ -73,7 +73,7 @@ function Contact() {
 
                 <div className=' border-1 rounded-[20px] border-bldack w-[780px] h-full p-6 shadow-2xl mx-2 lg:m-0' data-aos={'fade-right'}>
                     <h2 className='text-4xl  pb-3'>Contact us</h2>
-                    <p className='text-[17px]'>Please send your enquiry to Seta using the form below and we’ll connect you with the best member of our team for your query as soon as possible.</p>
+                    <p className='text-[17px]'>Please send your enquiry to core tech using the form below and we’ll connect you with the best member of our team for your query as soon as possible.</p>
 
                     <Row gutter={12} className='mt-4'>
                         <Col span={12} xs={24} md={12} className='mb-4'>
